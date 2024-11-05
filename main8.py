@@ -74,6 +74,5 @@ def main():
     
     print(f"Results have been logged in the Excel file at {file_path}")
 
-
 if __name__ == "__main__":
     main()

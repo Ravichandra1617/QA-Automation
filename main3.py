@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 # Load the Excel file
-file_path = r"C:\Users\Ravichandra\OneDrive - Langoor Digital Pvt. Ltd\Desktop\Article page url list.xlsx" # Replace with the actual file path
+file_path = r"C:\Users\Ravichandra\OneDrive - Langoor Digital Pvt. Ltd\Desktop\Article page url list.xlsx" 
 df = pd.read_excel(file_path)
 
 # Initialize the WebDriver (assuming Chrome, adjust if using a different browser)
